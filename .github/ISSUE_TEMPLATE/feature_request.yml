@@ -1,0 +1,16 @@
+name: Feature request
+description: Propose a focused improvement to the portable QA kit.
+title: 'feat: '
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and concrete use case
+      description: Explain the QA task or installation behavior the current kit cannot handle.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Smallest useful change
+      description: Include scope, compatibility and how to validate it.

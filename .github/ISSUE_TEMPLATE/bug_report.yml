@@ -1,0 +1,24 @@
+name: Bug report
+description: Report a reproducible kit installation or workflow defect.
+title: 'bug: '
+labels: [bug]
+body:
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment and versions
+      description: OS, kit version, Python or PowerShell, host/version, scope and target. No credentials.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction, expected and actual behavior
+      description: Include exact safe commands and redacted errors; distinguish installer checks from live agent behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Sanitized evidence and limitations
+      description: No customer data, browser state, private URLs or tokens. Use private reporting for vulnerabilities.

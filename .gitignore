@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+dist/
+.qa-output/
+*.bak
+.env
+.env.*
+.aws/
+.codex/
+.agents/
+/qa-agent-portable.zip
+/qa-testing-agent-implementation-plan.md
+/docs/implementation-plan.md
+/docs/baseline-audit.md
